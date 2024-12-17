@@ -28,7 +28,7 @@ export const clientReviews = [
     position: "Marketing Director at GreenLeaf",
     img: "assets/review1.png",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+      "Working with Temidayo was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
   },
   {
     id: 2,
@@ -36,7 +36,7 @@ export const clientReviews = [
     position: "Founder of TechGear Shop",
     img: "assets/review2.png",
     review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.",
+      "Temidayo’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.",
   },
   {
     id: 3,
@@ -44,7 +44,7 @@ export const clientReviews = [
     position: "Project Manager at UrbanTech ",
     img: "assets/review3.png",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "I can’t say enough good things about Temidayo. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
   },
   {
     id: 4,
@@ -52,17 +52,17 @@ export const clientReviews = [
     position: "CEO of BrightStar Enterprises",
     img: "assets/review4.png",
     review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.",
+      "Temidayo was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.",
   },
 ];
 
 export const myProjects = [
   {
-    title: "Podcastr - AI Podcast Platform",
-    desc: "Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.",
+    title: "ShopEase - Online Shopping Platform",
+    desc: "ShopEase is a cutting-edge e-commerce platform designed to streamline online shopping. With user-friendly navigation and seamless functionality, users can browse, add items to their cart, and enjoy a smooth shopping experience, authenticated or not.",
     subdesc:
-      "Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.",
-    href: "https://www.youtube.com/watch?v=zfAb95tJvZQ",
+      "Developed using React, JavaScript, ContextAPI for state management and native CSS, ShopEase offers a responsive, dynamic, and interactive frontend experience tailored for modern users.",
+    href: "https://ecommerce-frontend-iota-seven.vercel.app/",
     texture: "/textures/project/project1.mp4",
     logo: "/assets/project-logo1.png",
     logoStyle: {
@@ -79,29 +79,29 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
+        name: "CSS",
+        path: "assets/css.png",
       },
       {
         id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
+        name: "Javascript",
+        path: "/assets/js.png",
       },
       {
         id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "Figma",
+        path: "/assets/figma.png",
       },
     ],
   },
   {
-    title: "LiveDoc - Real-Time Google Docs Clone",
-    desc: "LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.",
+    title: "Tianna-Store - Full-Stack E-commerce Store",
+    desc: "Tianna-Store is a dynamic e-commerce platform offering a seamless shopping experience. Built for both authorized and guest users, it allows customers to browse, add items to their cart, and complete purchases effortlessly.",
     subdesc:
-      "With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.",
-    href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
+      "With robust admin access, administrators can manage the store by uploading products, updating inventory, and overseeing transactions. Developed using React and Node.js, Tianna-Store ensures efficient performance and scalability for modern online shopping.",
+    href: "https://mern-stack-ecommerce-1-485a.onrender.com/",
     texture: "/textures/project/project2.mp4",
-    logo: "/assets/project-logo2.png",
+    logo: "/assets/project-logo2.svg",
     logoStyle: {
       backgroundColor: "#13202F",
       border: "0.2px solid #17293E",
@@ -117,34 +117,47 @@ export const myProjects = [
       {
         id: 2,
         name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
+        path: "/assets/tailwindcss.png",
       },
       {
         id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
+        name: "Javascript",
+        path: "/assets/js.png",
       },
       {
         id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "Node.js",
+        path: "/assets/node.png",
+      },
+      {
+        id: 5,
+        name: "MongoDB",
+        path: "/assets/mongodb.png",
+      },
+      {
+        id: 6,
+        name: "Redux",
+        path: "/assets/redux.png",
+      },
+      {
+        id: 7,
+        name: "JWT",
+        path: "/assets/jwt.svg",
       },
     ],
   },
   {
-    title: "CarePulse - Health Management System",
-    desc: "An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.",
+    title: "Temidayo's Portfolio",
+    desc: "A personal portfolio showcasing my skills, projects, and expertise in web development. It features smooth animations and transitions built with Framer Motion, React, and custom CSS for a unique user experience.",
     subdesc:
-      "With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.",
-    href: "https://www.youtube.com/watch?v=lEflo_sc82g",
+      "Built with React, custom CSS, and Framer Motion, the portfolio highlights my journey as a developer and demonstrates my passion for creating engaging user interfaces.",
+    href: "https://temidy-portfolio.vercel.app",
     texture: "/textures/project/project3.mp4",
     logo: "/assets/project-logo3.png",
     logoStyle: {
-      backgroundColor: "#60f5a1",
-      background:
-        "linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
-      border: "0.2px solid rgba(208, 213, 221, 1)",
-      boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
+      backgroundColor: "#123456",
+      border: "0.2px solid #345678",
+      boxShadow: "0px 0px 60px 0px #1234564D",
     },
     spotlight: "/assets/spotlight3.png",
     tags: [
@@ -155,13 +168,13 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
+        name: "CSS",
+        path: "/assets/css.png",
       },
       {
         id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
+        name: "Javascript",
+        path: "/assets/js.png",
       },
       {
         id: 4,
@@ -171,11 +184,11 @@ export const myProjects = [
     ],
   },
   {
-    title: "Horizon - Online Banking Platform",
-    desc: "Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.",
+    title: "LearnCooking - Online Recipe Platform",
+    desc: "LearnCooking is a dynamic platform designed to help users discover and learn how to cook a variety of dishes. With every refresh, users are presented with 10 random recipes, making meal discovery exciting and educational.",
     subdesc:
-      "Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.",
-    href: "https://www.youtube.com/watch?v=PuOVqP_cjkE",
+      "Built with HTML, CSS, and JavaScript, LearnCooking delivers a simple yet interactive experience, perfect for aspiring chefs and cooking enthusiasts.",
+    href: "https://gab-codes.github.io/Recipe-book-app",
     texture: "/textures/project/project4.mp4",
     logo: "/assets/project-logo4.png",
     logoStyle: {
@@ -187,60 +200,18 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
+        name: "HTML",
+        path: "/assets/html.png",
       },
       {
         id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
+        name: "CSS",
+        path: "/assets/css.png",
       },
       {
         id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
-    ],
-  },
-  {
-    title: "Imaginify - AI Photo Manipulation App",
-    desc: "Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.",
-    subdesc:
-      "Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.",
-    href: "https://www.youtube.com/watch?v=Ahwoks_dawU",
-    texture: "/textures/project/project5.mp4",
-    logo: "/assets/project-logo5.png",
-    logoStyle: {
-      backgroundColor: "#1C1A43",
-      border: "0.2px solid #252262",
-      boxShadow: "0px 0px 60px 0px #635BFF4D",
-    },
-    spotlight: "/assets/spotlight5.png",
-    tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "Javascript",
+        path: "/assets/js.png",
       },
     ],
   },

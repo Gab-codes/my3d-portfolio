@@ -55,7 +55,7 @@ const Hero = () => {
       </div>
 
       <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space">
-        <a href="#">
+        <a href="/assets/Temidayo-Gabriel-CV.pdf" target="_blank">
           <Button
             name="Download my CV"
             isBeam
