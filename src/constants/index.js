@@ -58,19 +58,20 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: "ShopEase - Online Shopping Platform",
-    desc: "ShopEase is a cutting-edge e-commerce platform designed to streamline online shopping. With user-friendly navigation and seamless functionality, users can browse, add items to their cart, and enjoy a smooth shopping experience, authenticated or not.",
+    title: "Andrew Portfolio - A Personal Portfolio",
+    desc: "Andrew Portfolio is a sleek and interactive personal portfolio website built for Andrew, a claim specialist. It showcases his expertise, and services in a visually appealing manner.",
     subdesc:
-      "Developed using React, JavaScript, ContextAPI for state management and native CSS, ShopEase offers a responsive, dynamic, and interactive frontend experience tailored for modern users.",
-    href: "https://ecommerce-frontend-iota-seven.vercel.app/",
-    texture: "/textures/project/project1.mp4",
-    logo: "/assets/project-logo1.png",
+      "Designed with smooth animations and a responsive layout, the portfolio provides an engaging user experience. Developed using React.js, Tailwind CSS, and Framer Motion, it ensures high performance, seamless navigation, and dynamic visual effects.",
+    href: "https://andrew-website-demo.vercel.app/",
+    texture: "/textures/project/project5.mp4",
+    logo: "/assets/andrew-portfolio-logo.svg",
     logoStyle: {
-      backgroundColor: "#2A1816",
-      border: "0.2px solid #36201D",
-      boxShadow: "0px 0px 60px 0px #AA3C304D",
+      backgroundColor: "#1E293B",
+      border: "0.2px solid #334155",
+      boxShadow: "0px 4px 20px 0px rgba(30, 58, 138, 0.5)",
     },
-    spotlight: "/assets/spotlight1.png",
+
+    spotlight: "/assets/andrew-portfolio-spotlight.png",
     tags: [
       {
         id: 1,
@@ -79,8 +80,8 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: "CSS",
-        path: "assets/css.png",
+        name: "TailwindCSS",
+        path: "/assets/tailwindcss.png",
       },
       {
         id: 3,
@@ -89,8 +90,8 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: "Figma",
-        path: "/assets/figma.png",
+        name: "Framer Motion",
+        path: "/assets/framer.png",
       },
     ],
   },
@@ -143,6 +144,43 @@ export const myProjects = [
         id: 7,
         name: "JWT",
         path: "/assets/jwt.svg",
+      },
+    ],
+  },
+  {
+    title: "ShopEase - Online Shopping Platform",
+    desc: "ShopEase is a cutting-edge e-commerce platform designed to streamline online shopping. With user-friendly navigation and seamless functionality, users can browse, add items to their cart, and enjoy a smooth shopping experience, authenticated or not.",
+    subdesc:
+      "Developed using React, JavaScript, ContextAPI for state management and native CSS, ShopEase offers a responsive, dynamic, and interactive frontend experience tailored for modern users.",
+    href: "https://ecommerce-frontend-iota-seven.vercel.app/",
+    texture: "/textures/project/project1.mp4",
+    logo: "/assets/project-logo1.png",
+    logoStyle: {
+      backgroundColor: "#2A1816",
+      border: "0.2px solid #36201D",
+      boxShadow: "0px 0px 60px 0px #AA3C304D",
+    },
+    spotlight: "/assets/spotlight1.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 2,
+        name: "CSS",
+        path: "assets/css.png",
+      },
+      {
+        id: 3,
+        name: "Javascript",
+        path: "/assets/js.png",
+      },
+      {
+        id: 4,
+        name: "Figma",
+        path: "/assets/figma.png",
       },
     ],
   },

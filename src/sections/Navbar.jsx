@@ -32,7 +32,6 @@ const Navbar = () => {
             className="text-neutral-400 flex items-center font-bold text-xl hover:text-white transition-colors"
           >
             Gabriel
-            <img src="/assets/idea-bulb.png" alt="icon" className="h-8 w-9" />
           </a>
           <button
             onClick={toggleMenu}
