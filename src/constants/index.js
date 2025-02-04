@@ -71,7 +71,7 @@ export const myProjects = [
       boxShadow: "0px 4px 20px 0px rgba(30, 58, 138, 0.5)",
     },
 
-    spotlight: "/assets/sportlight-5.png",
+    spotlight: "/assets/spotlight5.png",
     tags: [
       {
         id: 1,
