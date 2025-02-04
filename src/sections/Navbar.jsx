@@ -29,7 +29,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center py-5 mx-auto sm:px-10 px-5">
           <a
             href="/"
-            className="text-neutral-400 flex items-center font-bold text-xl hover:text-white transition-colors"
+            className="text-neutral-400 flex items-center font-bold text-xl hover:text-white transition-colors ease-in-out "
           >
             Gabriel
           </a>

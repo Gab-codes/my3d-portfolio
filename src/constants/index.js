@@ -64,14 +64,14 @@ export const myProjects = [
       "Designed with smooth animations and a responsive layout, the portfolio provides an engaging user experience. Developed using React.js, Tailwind CSS, and Framer Motion, it ensures high performance, seamless navigation, and dynamic visual effects.",
     href: "https://andrew-website-demo.vercel.app/",
     texture: "/textures/project/project5.mp4",
-    logo: "/assets/andrew-portfolio-logo.svg",
+    logo: "/assets/idea-bulb.png",
     logoStyle: {
       backgroundColor: "#1E293B",
       border: "0.2px solid #334155",
       boxShadow: "0px 4px 20px 0px rgba(30, 58, 138, 0.5)",
     },
 
-    spotlight: "/assets/idea-bulb.png",
+    spotlight: "/assets/sportlight-5.png",
     tags: [
       {
         id: 1,
