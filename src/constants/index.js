@@ -308,7 +308,7 @@ export const workExperiences = [
     duration: "2022 - Present",
     title:
       "I embarked on my web development journey in 2022, learning the fundamentals of coding and web technologies through online resources, tutorials, and hands-on practice. Along the way, I’ve taken on multiple side projects to build my portfolio and expand my skills.",
-    icon: "/assets/javascript.svg",
+    icon: "/assets/idea-bulb.png",
     animation: "clapping",
   },
 ];
