@@ -297,7 +297,7 @@ export const workExperiences = [
     pos: "Web Developer (Freelance)",
     duration: "2023 - Present",
     title:
-      "Since 2022, I've been working as a freelance web developer, focusing on building dynamic, responsive websites and web applications for various clients. I use technologies such as React.js, JavaScript, Tailwind CSS, Node.js, Framer Motion and sometimes PHP to create user-friendly and interactive platforms.",
+      "Since 2023, I've been working as a freelance web developer, focusing on building dynamic, responsive websites and web applications for various clients. I use technologies such as React.js, JavaScript, Tailwind CSS, Node.js, Framer Motion and sometimes PHP to create user-friendly and interactive platforms.",
     icon: "/assets/react.svg",
     animation: "victory",
   },
