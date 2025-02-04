@@ -293,32 +293,22 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: "Framer",
-    pos: "Lead Web Developer",
-    duration: "2022 - Present",
+    name: "Freelance Web Developer",
+    pos: "Web Developer (Freelance)",
+    duration: "2023 - Present",
     title:
-      "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: "/assets/framer.svg",
+      "Since 2022, I've been working as a freelance web developer, focusing on building dynamic, responsive websites and web applications for various clients. I use technologies such as React.js, JavaScript, Tailwind CSS, Node.js, Framer Motion and sometimes PHP to create user-friendly and interactive platforms.",
+    icon: "/assets/react.svg",
     animation: "victory",
   },
   {
     id: 2,
-    name: "Figma",
-    pos: "Web Developer",
-    duration: "2020 - 2022",
+    name: "Self-Learning and Side Projects",
+    pos: "Web Developer (Self-taught)",
+    duration: "2022 - Present",
     title:
-      "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: "/assets/figma.svg",
+      "I embarked on my web development journey in 2022, learning the fundamentals of coding and web technologies through online resources, tutorials, and hands-on practice. Along the way, I’ve taken on multiple side projects to build my portfolio and expand my skills.",
+    icon: "/assets/javascript.svg",
     animation: "clapping",
-  },
-  {
-    id: 3,
-    name: "Notion",
-    pos: "Junior Web Developer",
-    duration: "2019 - 2020",
-    title:
-      "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: "/assets/notion.svg",
-    animation: "salute",
   },
 ];
