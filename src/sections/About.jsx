@@ -23,11 +23,11 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I'm Gabriel</p>
               <p className="grid-subtext">
-                I'm a dedicated full-stack developer with a passion for creating
-                innovative solutions. I am always striving to learn more,
-                constantly improving my skills to build efficient and impactful
-                applications. Hard work and a relentless pursuit of knowledge
-                drive me to stay ahead in this ever-evolving field.
+                I'm a dedicated full-stack developer(Frontend Heavy) with a
+                passion for creating innovative solutions. I am always striving
+                to learn more, constantly improving my skills to build efficient
+                and impactful applications. Hard work and a relentless pursuit
+                of knowledge drive me to stay ahead in this ever-evolving field.
               </p>
             </div>
           </div>
