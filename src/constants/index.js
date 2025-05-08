@@ -58,6 +58,43 @@ export const clientReviews = [
 
 export const myProjects = [
   {
+    title: "Interview Pro – AI-Powered Interviewer",
+    desc: "Interview Pro is an AI-powered mock interview platform designed to simulate real interview experiences and provide insightful feedback.",
+    subdesc:
+      "Built with Next.js, TypeScript, and Firebase, this project enables users to engage in dynamic Q&A sessions with an AI interviewer. The platform provides instant, structured feedback to help users improve their answers, communication, and confidence.",
+    href: "https://interview-pro-rho.vercel.app/",
+    texture: "/textures/project/interviewpro.mp4",
+    logo: "/assets/interviewer-pro.svg",
+    logoStyle: {
+      backgroundColor: "#123456",
+      border: "0.2px solid #345678",
+      boxShadow: "0px 0px 60px 0px #1234564D",
+    },
+    spotlight: "/assets/spotlight3.png",
+    tags: [
+      {
+        id: 1,
+        name: "Next.js",
+        path: "/assets/nextjs.svg",
+      },
+      {
+        id: 2,
+        name: "TypeScript",
+        path: "/assets/typescript.png",
+      },
+      {
+        id: 3,
+        name: "Firebase",
+        path: "/assets/firebase.svg",
+      },
+      {
+        id: 4,
+        name: "AI",
+        path: "/assets/gemini.png",
+      },
+    ],
+  },
+  {
     title: "Andrew Portfolio - A Personal Portfolio",
     desc: "Andrew Portfolio is a sleek and interactive personal portfolio website built for Andrew, a claim specialist. It showcases his expertise, and services in a visually appealing manner.",
     subdesc:
@@ -96,11 +133,43 @@ export const myProjects = [
     ],
   },
   {
+    title: "Miala Admin Dashboard",
+    desc: "A comprehensive internal admin dashboard built for Miala. It enables administrators to manage agents, products, and user access within their ecosystem.",
+    subdesc:
+      "Developed using JavaScript and React.js, the dashboard features role-based access control, dynamic data tables, modals, and form components tailored for admin and super admin roles. Designed with responsiveness and scalability in mind, it streamlines internal operations with a clean and efficient UI.  Live preview is unavailable until the platform goes live.",
+    href: "#",
+    texture: "/textures/project/miala.mp4",
+    logo: "/assets/MialaLogo.svg",
+    logoStyle: {
+      backgroundColor: "#1F2937",
+      border: "0.2px solid #374151",
+      boxShadow: "0px 4px 20px 0px rgba(59, 130, 246, 0.3)",
+    },
+    spotlight: "/assets/spotlight4.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 2,
+        name: "JavaScript",
+        path: "/assets/js.png",
+      },
+      {
+        id: 3,
+        name: "TailwindCSS",
+        path: "/assets/tailwindcss.png",
+      },
+    ],
+  },
+  {
     title: "Tianna-Store - Full-Stack E-commerce Store",
     desc: "Tianna-Store is a dynamic e-commerce platform offering a seamless shopping experience. Built for both authorized and guest users, it allows customers to browse, add items to their cart, and complete purchases effortlessly.",
     subdesc:
       "With robust admin access, administrators can manage the store by uploading products, updating inventory, and overseeing transactions. Developed using React and Node.js, Tianna-Store ensures efficient performance and scalability for modern online shopping.",
-    href: "https://mern-stack-ecommerce-1-485a.onrender.com/",
+    href: "https://ecommerce-google-login-1.onrender.com/",
     texture: "/textures/project/project2.mp4",
     logo: "/assets/project-logo2.svg",
     logoStyle: {
@@ -293,6 +362,16 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
+    name: "LYNOG TECH NIG",
+    pos: "Frontend Developer",
+    duration: "March 2025 - Present",
+    title:
+      "At LYNOG TECH NIG, I started as a frontend developer where I built an admin dashboard using JavaScript and React. I’m currently working on a fintech application using TypeScript, applying reusable components, API integration, and role-based access control to create a scalable user experience.",
+    icon: "/assets/lynog-tech.png",
+    animation: "salute",
+  },
+  {
+    id: 2,
     name: "Freelance Web Developer",
     pos: "Web Developer (Freelance)",
     duration: "2023 - Present",
@@ -302,7 +381,7 @@ export const workExperiences = [
     animation: "victory",
   },
   {
-    id: 2,
+    id: 3,
     name: "Self-Learning and Side Projects",
     pos: "Web Developer (Self-taught)",
     duration: "2022 - Present",
