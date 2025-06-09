@@ -52,8 +52,9 @@ const Contact = () => {
         <div className="contact-container top-7 lg:top-10">
           <h3 className="head-text">Contact Me</h3>
           <p className="text-base text-white-600 mt-3">
-            Whether you're looking to build a new website, imporve your existing
-            platform, or bring a unique project to life, I'm here to help.
+            Whether you&apos;re looking to build a new website, imporve your
+            existing platform, or bring a unique project to life, I'm here to
+            help.
           </p>
 
           <form
