@@ -71,7 +71,7 @@ const About = () => {
                 I work remotely across most timezones.
               </p>
               <p className="grid-subtext">
-                I'm based in Nigeria, with remote work availability.
+                I&apos;m based in Nigeria, with remote work availability.
               </p>
               <a href="#contact">
                 <Button
