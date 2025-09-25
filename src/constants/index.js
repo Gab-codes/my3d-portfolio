@@ -254,43 +254,6 @@ export const myProjects = [
     ],
   },
   {
-    title: "Temidayo's Portfolio",
-    desc: "A personal portfolio showcasing my skills, projects, and expertise in web development. It features smooth animations and transitions built with Framer Motion, React, and custom CSS for a unique user experience.",
-    subdesc:
-      "Built with React, custom CSS, and Framer Motion, the portfolio highlights my journey as a developer and demonstrates my passion for creating engaging user interfaces.",
-    href: "https://temidy-portfolio.vercel.app",
-    texture: "/textures/project/project3.mp4",
-    logo: "/assets/project-logo3.png",
-    logoStyle: {
-      backgroundColor: "#123456",
-      border: "0.2px solid #345678",
-      boxShadow: "0px 0px 60px 0px #1234564D",
-    },
-    spotlight: "/assets/spotlight3.png",
-    tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "CSS",
-        path: "/assets/css.png",
-      },
-      {
-        id: 3,
-        name: "Javascript",
-        path: "/assets/js.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
-    ],
-  },
-  {
     title: "LearnCooking - Online Recipe Platform",
     desc: "LearnCooking is a dynamic platform designed to help users discover and learn how to cook a variety of dishes. With every refresh, users are presented with 10 random recipes, making meal discovery exciting and educational.",
     subdesc:
